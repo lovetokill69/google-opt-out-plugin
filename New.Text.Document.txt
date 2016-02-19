@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>ShopSomething.com - Buy Sell Posts</title>
+    <link rel="stylesheet" href="/frontend/css/style.css" />
+    <link rel="stylesheet" href="/frontend/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="/frontend/css/animate.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.ico">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="verifyownership" content="6f061c33d75f857fb1d1083f286dee82" />
+    <!--[if lt IE 9]>
+	<script src="/frontend/js/html5shiv.js"></script>
+    <![endif]-->
+    
+<script src="/frontend/js/jquery-1.9.1.js"></script>
+	<script src="/frontend/js/jquery-migrate-1.2.1.js"></script>
+	<script src="/frontend/js/jquery-ui.js"></script>
+	<script src="/frontend/js/unslider.min.js"></script>
+	<script src="/frontend/js/scripts.js"></script>
+	<script src="/frontend/js/jquery-validate.js"></script>
+    <script src="/frontend/js/scripts.js"></script>
+	<script src="/frontend/js/animate.js"></script>
+	
+</head><body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="logo">
+    <a href="/"><h1><i class="fa fa-thumbs-up"></i><strong>ShopSomething</strong> | FB<span></span></h1></a>
+</div>
+        	    <nav class="menu">
+        <a href="/buy"><i class="fa fa-shopping-cart"></i> Buy posts</a>
+        <a href="/fb/login/10153104902907414"><i class="fa fa-money"></i> Sell posts on fanpage</a>
+		<a href="/affiliate"><i class="fa fa-bullhorn"></i> Affiliate Program</a>
+        <a href="/fb/login/10153104902907414"><i class="fa fa-unlock-alt"></i> Sign in using Facebook</a>
+    </nav>
+    <select class="menu-mobile" onChange="if(this.selectedIndex!=0) self.location=this.options[this.selectedIndex].value">
+        <option>Menu</option>
+        <option value="/buy">Buy posts</option>
+        <option value="/fb/login/10153104902907414">Sell posts on fanpage</option>
+        <option value="/affiliate">Affiliate Program</option>
+        <option value="/fb/login/10153104902907414">Sign in using Facebook</option>
+    </select>
+    </div>
+</header>
+
+        <section class="content">
+            
+<div class="banner">
+    <ul>
+		<li style="background: url('frontend/images/home/sunset.jpg') no-repeat top center; background-size: auto !important;">
+			<div class="inner">
+				<h1 class="animateSD hidden slideDown" style="color:black;font-size:40px;font-weight:bold;font-style:normal;">Buy and Sell posts on popular fanpages.</h1>
+				<p class="animateFI" style="color:black;font-size:20px;font-weight:bold;font-style:normal;">ShopSomething.com is the best website for marketing on Facebook.</p>
+
+				<a class="btn first animateSR" href="/buy">Buy posts</a>
+				<a class="btn second animateSL" href="/fb/login/10153104902907414" >Sell posts on fanpage</a>
+			</div>
+		</li>
+
+		<li style="background: url('frontend/images/home/subway.jpg') no-repeat top center;  background-size: auto !important;">
+			<div class="inner">
+				<h2 style="font-size:35px;font-weight:bold;font-style:normal;">Really large base of fans.</h2>
+				<p style="font-size:15px;font-weight:bold;font-style:normal;">Every fan is a potential buyer or visitors to your website.</p>
+
+				<a class="btn" href="/buy">Buy posts</a>
+			</div>
+		</li>
+
+		<li style="background: url('frontend/images/home/wood.jpg') no-repeat top center;  background-size: auto !important;">
+			<div class="inner">
+				<h2 style="font-size:35px;font-weight:bold;font-style:normal;">Natural growth.</h2>
+				<p style="font-size:15px;font-weight:bold;font-style:normal;">Buy posts and share content repeatedly.</p>
+
+				<a class="btn" href="/buy">Buy posts</a>
+			</div>
+		</li>
+    </ul>
+</div>
+
+<div class="clearfix" style="width: 100%;"></div>
+
+<section class="container promotion">
+	<div class="promo">
+		<h3 class="animateSD">
+			<i class="fa fa-bullhorn fa-3x animateFI"></i><br>
+			Simple.
+		</h3>
+		<p class="animateSU">Save time and enjoy our automated system. Just wait and see your business grow.</p>
+	</div>
+	<div class="promo">
+		<h3 class="animateSD">
+			<i class="fa fa-signal fa-3x animateFI"></i><br>
+			Effective.
+		</h3>
+		<p class="animateSU">Effectively reach your target audience through a wide selection of popular fan pages. Fan page owners will display your content for a minimum of 24 hours.</p>
+	</div>
+	<div class="promo">
+		<h3 class="animateSD">
+			<i class="fa fa-shield fa-3x animateFI"></i><br>
+			Secure
+		</h3>
+		<p class="animateSU">All money transactions are performed securely. Refunds will be provided should page owner fail to post your content.</p>
+	</div>
+	<div class="promo">
+		<h3 class="animateSD">
+			<i class="fa fa-mobile-phone fa-3x animateFI"></i><br>
+			In Control
+		</h3>
+		<p class="animateSU">Our system is very responsive and compatible on all mobile devices.</p>
+	</div>
+</section>
+
+<div class="status failed clearfix fadeIn" style="width:;">
+			<h3><center>Buyers are buying posts again and again because this is better than Facebook ads. Just Give it a try!</center></h3>
+			
+</div>
+
+<div>
+<center><img src="frontend/images/home/howto.jpg"  style="max-width:800px;width:100%"/></center>
+</div>
+
+
+<script>
+    $("document").ready(function($){
+        if(window.chrome) {
+            $('.banner li').css('background-size', '100% 100%');
+        }
+        $(function() {
+            $('.banner').unslider({
+                speed: 500,                  //  The speed to animate each slide (in milliseconds)
+                delay: 7000,                //  The delay between slide animations (in milliseconds)
+                arrows: false,
+                dots: true,               //  Display dot navigation
+                fluid: true              //  Support responsive design. May break non-responsive designs
+            });
+        });
+
+		jQuery('.animateSD').addClass("hidden").viewportChecker({
+			classToAdd: 'slideDown', // Class to add to the elements when they are visible
+			offset: 0,
+			delay: 100
+		});
+		jQuery('.animateSU').addClass("hidden").viewportChecker({
+			classToAdd: 'slideUp', // Class to add to the elements when they are visible
+			offset: 0
+		});
+
+		jQuery('.animateSR').addClass("hidden").viewportChecker({
+			classToAdd: 'slideRight', // Class to add to the elements when they are visible
+			offset: 0
+		});
+		jQuery('.animateSL').addClass("hidden").viewportChecker({
+			classToAdd: 'slideLeft', // Class to add to the elements when they are visible
+			offset: 0
+		});
+		jQuery('.animateFI').addClass("hidden").viewportChecker({
+			classToAdd: 'fadeIn', // Class to add to the elements when they are visible
+			offset: 0
+		});
+    });
+</script>        </section>
+    </div>
+    <footer class="footer clearfix" style="background:#2f4b66;">
+    <section class="container" style="font-family:'Bitter', serif;color: #f6eed7;font-size:22px;">
+      &copy; 2014 ShopSomething.com | <a href="rules">Terms and Conditions</a> | <a href="privacy">Privacy</a> | <a href="about">About</a> | <a href="contact">Contact us</a>
+    </section>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54708096-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</footer>
+<!--
+<footer class="footer clearfix" style="background:#92ABDB;">#2f4b66
+    <section class="container">
+        <span class="copywrite" style="font-size:15px;">
+            &copy;ShopSomething.com        </span>
+        <nav class="foot-nav">
+            <span>By signing up you accept </span>
+            <a href="rules">terms and conditions</a>
+        </nav>
+        <span class="foot-nav" style="font-size:15px;">
+            <a href"faq">FAQ</a>
+        </span>
+    </section>
+</footer>
+--></body>
+</html>
